@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Writings</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Some of my thoughts</h1>
+    <nav>
+      <ul>
+        <li><a href="../">Home</a></li>
+        <li><a href="../works/">Works</a></li>
+        <li><a href="../interesting/">Interesting</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p>This is the Writings section — where I can share essays, notes, or stories.</p>
+  </main>
+</body>
+</html>
