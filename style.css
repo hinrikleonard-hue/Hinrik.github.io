@@ -1,0 +1,15 @@
+body {
+  background-color: forestgreen;  /* site background */
+  color: black;                   /* text color */
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+a {
+  color: black;                   /* links also black */
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;      /* example extra styling */
+}
