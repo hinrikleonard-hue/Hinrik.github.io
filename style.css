@@ -8,15 +8,14 @@ body {
   font-family: Arial, sans-serif;
 
   margin: 0;
-  text-align: center; /* this only centers inline text */
+  text-align: center; /* centers inline text */
   min-height: 100vh;
 }
 
+/* NAVIGATION AT TOP */
 nav {
-  position: absolute;
-  top: 50%;                /* move nav halfway down */
-  left: 50%;               /* move nav halfway across */
-  transform: translate(-50%, -50%); /* pull it back to exact center */
+  text-align: center;
+  margin: 1rem 0;   /* space around nav */
 }
 
 nav ul {
