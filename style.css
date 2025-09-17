@@ -9,25 +9,28 @@ body {
 
   margin: 0;
   height: 100vh;
+
   display: flex;
-  justify-content: center;   /* center vertically */
-  align-items: center;       /* center horizontally */
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
   text-align: center;
+}
+
+/* nav styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;   /* side by side */
+  margin: 0 15px;
 }
 
 a {
   color: #ffd700;
   font-weight: bold;
   text-shadow: 2px 2px 5px black;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  display: inline-block;   /* side-by-side links */
-  margin: 0 15px;
+  text-decoration: none;
 }
