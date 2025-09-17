@@ -41,3 +41,9 @@ p {
   font-weight: 700;          /* 700 = bold */
   text-shadow: 1px 1px 3px black; /* optional: improves readability */
 }
+.playlist-title {
+  font-size: 2rem;         /* make it stand out */
+  font-weight: bold;       /* bold text */
+  margin: 1rem 0;          /* space above/below */
+  text-shadow: 2px 2px 5px black;
+}
