@@ -35,3 +35,9 @@ a {
   text-shadow: 2px 2px 5px black;
   text-decoration: none;
 }
+
+/* 👇 NEW: make all <p> text bold */
+p {
+  font-weight: 700;          /* 700 = bold */
+  text-shadow: 1px 1px 3px black; /* optional: improves readability */
+}
