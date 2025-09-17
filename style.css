@@ -12,9 +12,17 @@ body {
 a {
   color: #ffd700;   /* links also gold */
   font-weight: bold;
+  text-decoration: none;          /* optional: remove underline */
+  text-shadow: 2px 2px 5px black; /* shadow for readability */
 }
 
 h1, h2, h3 {
   text-transform: uppercase;
-  color: #ffd700;   /* headers gold */
+  color: #ffd700;                 /* headers gold */
+  text-shadow: 2px 2px 5px black; /* shadow for readability */
+}
+
+/* apply shadow to all other text */
+p {
+  text-shadow: 1px 1px 3px black;
 }
