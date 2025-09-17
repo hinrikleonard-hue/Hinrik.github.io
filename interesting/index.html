@@ -1,27 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Interesting</title>
-  <link rel="stylesheet" href="../style.css">
+  <title>Playlists</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      line-height: 1.5;
+      text-align: center;
+    }
+    iframe {
+      max-width: 100%;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Interesting Shit</h1>
-    <nav>
-      <ul>
-        <li><a href="../">Home</a></li>
-        <li><a href="../works/">Works</a></li>
-        <li><a href="../writings/">Writings</a></li>
-      </ul>
-    </nav>
-  </header>
-<main>
- <p>
-  <a href="https://www.tiktok.com/@africamofficial/video/7524342323728207109" target="_blank">
-    https://www.tiktok.com/@africamofficial/video/7524342323728207109
-  </a>
-</p>
-</main>
+  <h1>My YouTube Playlist</h1>
+  <!-- Replace YOUR_PLAYLIST_ID with your actual YouTube playlist ID -->
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/videoseries?list=YOUR_PLAYLIST_ID"
+    title="YouTube playlist"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 </body>
 </html>
