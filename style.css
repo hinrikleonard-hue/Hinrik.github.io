@@ -1,6 +1,9 @@
 body {
-  background-color: forestgreen;  /* site background */
-  color: black;                   /* text color */
+  background-image: url("images/Handwritten_2025-08-09_164017.jpg");  /* site background */
+  background-size: cover;        /* make the image fill the screen */
+  background-position: center;   /* center the image */
+  background-attachment: fixed;  /* stays still when scrolling */
+  color: black;                  /* text color */
   font-family: Arial, sans-serif;
   margin: 2rem;
 }
