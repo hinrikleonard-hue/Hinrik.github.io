@@ -18,8 +18,3 @@ h1, h2, h3 {
   text-transform: uppercase;
   color: #ffd700;   /* headers gold */
 }
-
-/* 👇 Add this new part at the bottom */
-h1, h2, h3, p, a {
-  text-shadow: 1px 1px 3px black;
-}
