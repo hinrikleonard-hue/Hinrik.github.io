@@ -6,23 +6,28 @@ body {
 
   color: #ffd700;   /* gold font */
   font-family: Arial, sans-serif;
-  margin: 2rem;
+
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;   /* center vertically */
+  align-items: center;       /* center horizontally */
+  text-align: center;
 }
 
 a {
-  color: #ffd700;   /* links also gold */
+  color: #ffd700;
   font-weight: bold;
-  text-decoration: none;          /* optional: remove underline */
-  text-shadow: 2px 2px 5px black; /* shadow for readability */
+  text-shadow: 2px 2px 5px black;
 }
 
-h1, h2, h3 {
-  text-transform: uppercase;
-  color: #ffd700;                 /* headers gold */
-  text-shadow: 2px 2px 5px black; /* shadow for readability */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* apply shadow to all other text */
-p {
-  text-shadow: 1px 1px 3px black;
+li {
+  display: inline-block;   /* side-by-side links */
+  margin: 0 15px;
 }
