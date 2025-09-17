@@ -47,3 +47,9 @@ p {
   margin: 1rem 0;          /* space above/below */
   text-shadow: 2px 2px 5px black;
 }
+.year-label {
+  font-size: 1.2rem;       /* normal text size */
+  font-weight: bold;       /* bold like your links */
+  margin: 1rem 0;          /* spacing */
+  text-shadow: 2px 2px 5px black;
+}
