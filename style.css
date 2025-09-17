@@ -4,19 +4,21 @@ body {
   background-position: center;
   background-attachment: fixed;
 
-  color: #ffd700;   /* gold font */
+  color: #ffd700;
   font-family: Arial, sans-serif;
 
   margin: 0;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* center vertically */
-  text-align: center;
+  text-align: center; /* this only centers inline text */
+  min-height: 100vh;
 }
 
-/* nav styling */
+nav {
+  position: absolute;
+  top: 50%;                /* move nav halfway down */
+  left: 50%;               /* move nav halfway across */
+  transform: translate(-50%, -50%); /* pull it back to exact center */
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -24,7 +26,7 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;   /* side by side */
+  display: inline-block;   /* side by side links */
   margin: 0 15px;
 }
 
